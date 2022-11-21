@@ -1,0 +1,40 @@
+form {
+  padding: 10px 10px;
+  background-color: rgba(245, 245, 245, 0.87);
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.form__inner {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.form__inner div {
+  display: flex;
+  flex-direction: column;
+}
+.form__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form__header h3 {
+  margin: 0;
+  padding: 0;
+}
+.form__header span {
+  cursor: pointer;
+}
+.form__title {
+  width: 30%;
+}
+input {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+label {
+  margin-bottom: 10px;
+}
+.add__button {
+  margin-top: 10px;
+  padding: 7px 12px;
+}
